@@ -1,4 +1,5 @@
 # Don't include node modules
+node_modules/
 lambda/node_modules
 lambda/dist
 lambda/src/**/*.js

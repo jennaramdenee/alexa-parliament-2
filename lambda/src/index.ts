@@ -263,7 +263,7 @@ export async function handler(event: RequestEnvelope, context: any, callback: an
       const request = handlerInput.requestEnvelope.request;
 
       Airbrake.notify({
-        error: 'UhandledIntent fired',
+        error: 'UnhandledIntent fired',
         context: {},
         environment: { nodeEnv: process.env.NODE_ENV },
         param: {},
