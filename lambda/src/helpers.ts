@@ -15,7 +15,7 @@ const DISCARDED_HOUSE_VALUES: string[] = [
     'both'
 ];
 
-export function Helpers = {
+export const Helpers = {
   /**
   * Log an intent name - useful for debugging and assessing applicaion flow.
   *

@@ -285,7 +285,10 @@ export async function handler(event: RequestEnvelope, context: any, callback: an
       FindMyMPIntent,
       SittingRequestHandler,
       SessionEndedRequestHandler,
-      UnhandledIntent
+      UnhandledIntent,
+      HouseIntent,
+      MyMPIntent,
+      WhatsOnIntent
     )
     .withAutoCreateTable(false)
     .withTableName(configuration.dbTableName);

@@ -29,6 +29,9 @@ const englishStrings = {
 
   ".parliament_error": "I was unable to reach Parliament. Please try again later.",
 
+  ".house_intent.repeat_intent": "I heard, ${err.intent}. Did you mean, 'commons', 'lords', or, 'both'?"
+  ".house_intent.reprompt": "Did you mean, 'commons', 'lords', or, 'both'?"
+
   "TEST": "test english",
   "TEST_PARAMS": "test with parameters {0} and {1}",
 };
